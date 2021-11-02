@@ -9,7 +9,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	
 	public static void initializaion() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Eclipse Workspace\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "‪C:\\Eclipse Workspace\\BDDProject\\Drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://ui.cogmento.com/");
 		driver.manage().window().maximize();
