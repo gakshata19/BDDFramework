@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-01T19:27:46.902Z",
+        "line": 2,
+        "name": "Validate Login Functionality",
+        "description": "",
+        "id": "test-crm-application;validate-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2913700500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch CRM browser",
+            "match": {
+              "location": "StepDefination.LoginCRM.user_launch_crm_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1778043400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "StepDefination.LoginCRM.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119765000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on login button",
+            "match": {
+              "location": "StepDefination.LoginCRM.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1170701100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on homepage",
+            "match": {
+              "location": "StepDefination.LoginCRM.user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2207954600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close browser",
+            "match": {
+              "location": "StepDefination.LoginCRM.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test CRM Application",
+    "description": "",
+    "id": "test-crm-application",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,7 @@
+
+Scenario: Validate Login Functionality        # Features/Login.feature:2
+  Given User launch CRM browser               # StepDefination.LoginCRM.user_launch_crm_browser()
+  When User enter valid username and password # StepDefination.LoginCRM.user_enter_valid_username_and_password()
+  Then user click on login button             # StepDefination.LoginCRM.user_click_on_login_button()
+  Then User is on homepage                    # StepDefination.LoginCRM.user_is_on_homepage()
+  Then close browser                          # StepDefination.LoginCRM.close_browser()
